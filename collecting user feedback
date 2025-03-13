@@ -1,0 +1,6 @@
+feedback=["great service","very satisfied","could be better","excellent"]
+positive=sum(1 for comment in feedback if "great" in comment.lower() or "excellent" in comment.lower())
+print(f"{positive}")
+print("user feedback")
+for comment in feedback:
+    print(f"-{comment}")
