@@ -1,0 +1,13 @@
+todo=["shopping","zudio","nptel"]
+todo.append("python")
+todo.append("run")
+
+##remove task
+todo.remove("shopping")
+##checking
+if "nptel" in todo:
+    print("DO NOT FORGET NPTEL!!!")
+
+print("to do list remaining")
+for task in todo:
+    print(f"-{task}")
