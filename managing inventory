@@ -1,0 +1,10 @@
+inventory=["orange","apples","grapes","leechi"]
+inventory.append("mango")
+item="mango"
+if item in inventory:
+    print("available")
+else:
+    print("out of stock")
+
+for item in inventory:
+    print(f"-{item}")
