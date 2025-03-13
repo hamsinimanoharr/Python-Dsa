@@ -1,0 +1,7 @@
+grades=[75,89,90,65,90]
+average=sum(grades)/len(grades)
+print(f"average is",average)
+high=max(grades)
+low=min(grades)
+print(f"highes is",high)
+print(f"lowest is",low)
