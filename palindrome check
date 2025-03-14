@@ -1,0 +1,5 @@
+def pal(s):
+    s=s.lower().replace(" ","")
+    return s==s[::-1]
+print(pal("yoy lol pop"))
+print(pal("a man a plan a canal PANAMA"))
