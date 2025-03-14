@@ -1,0 +1,11 @@
+def read(file):
+    count={}
+    with open(file,'r') as file:
+        for line in file:
+            words=line.split()
+            for word in words:
+                word=word.lower().strip()
+                count[word]=count.get(word,0)+1
+    return count
+file1='loops.py'
+print(read(file1))
