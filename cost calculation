@@ -1,0 +1,10 @@
+def calculate(cart):
+    tot=0
+    for item in cart:
+        tot+=item['price']*item['q']
+    print(tot)
+cart=[{'name':'mangio','price':700,'q':85},
+    {'name':'blueberry','price':1000,'q':55},
+     {'name':'apple','price':900,'q':45} ]
+
+calculate(cart)
